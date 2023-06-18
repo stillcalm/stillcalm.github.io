@@ -75,7 +75,7 @@ const config = {
         title: 'Stillcalm',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/icon.svg',
         },
         items: [
           {
