@@ -1,19 +1,31 @@
 {
   "title": {
-    "message": "My Site",
+    "message": "Stillcalm",
     "description": "The title in the navbar"
   },
   "logo.alt": {
     "message": "My Site Logo",
     "description": "The alt text of navbar logo"
   },
-  "item.label.Tutorial": {
-    "message": "Tutorial",
-    "description": "Navbar item with label Tutorial"
+  "item.label.Front": {
+    "message": "前端",
+    "description": "Navbar item with label Front"
+  },
+  "item.label.Tool": {
+    "message": "工具",
+    "description": "Navbar item with label Tool"
+  },
+  "item.label.Note": {
+    "message": "笔记",
+    "description": "Navbar item with label Note"
   },
   "item.label.Blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "Navbar item with label Blog"
+  },
+  "item.label.Links": {
+    "message": "导航",
+    "description": "Navbar item with label Links"
   },
   "item.label.GitHub": {
     "message": "GitHub",

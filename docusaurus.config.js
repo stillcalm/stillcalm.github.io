@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Stillcalm',
   tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/icon.svg',
 
   // Set the production url of your site here
   url: 'https://stillcalm.github.io',
@@ -29,7 +29,7 @@ const config = {
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh-Hans',
     locales: ['en', 'zh-Hans'],
     localeConfigs: {
       en: {
@@ -86,15 +86,15 @@ const config = {
           },
           {
             type: 'docSidebar',
-            sidebarId: 'basics',
+            sidebarId: 'tool',
             position: 'left',
-            label: 'Tutorial basics',
+            label: 'Tool',
           },
           {
             type: 'docSidebar',
-            sidebarId: 'extras',
+            sidebarId: 'note',
             position: 'left',
-            label: 'Tutorial extras',
+            label: 'Note',
           },
           {
             to: '/blog',
@@ -102,14 +102,19 @@ const config = {
             position: 'left',
           },
           {
-            href: 'https://github.com/stillcalm',
-            label: 'GitHub',
+            to: '/resource',
+            label: 'Links',
             position: 'right',
           },
           {
             type: 'localeDropdown',
             position: 'right',
           },
+          {
+            href: 'https://github.com/stillcalm',
+            label: 'GitHub',
+            position: 'right',
+          },          
         ],
       },
       footer: {

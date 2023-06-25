@@ -123,6 +123,9 @@
     "message": "{nDocsTagged}「{tagName}」",
     "description": "The title of the page for a docs tag"
   },
+  "theme.docs.versionBadge.label": {
+    "message": "版本：{versionLabel}"
+  },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "此为 {siteTitle} {versionLabel} 版尚未发行的文档。",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
@@ -138,9 +141,6 @@
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "最新版本",
     "description": "The label used for the latest version suggestion link label"
-  },
-  "theme.docs.versionBadge.label": {
-    "message": "版本：{versionLabel}"
   },
   "theme.common.editThisPage": {
     "message": "编辑此页",
